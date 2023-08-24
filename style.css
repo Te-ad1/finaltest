@@ -555,8 +555,9 @@ nav h1 {
         letter-spacing: 4px;
     }
 
+   
     .center-container h1 blockquote {
-        font-size: 3rem;
+        font-size: 1.2rem;
         letter-spacing: 3px;
         text-shadow: 4px 4px 3px rgba(0, 0, 0, .1);
         font-weight: 400;
