@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="img/Yams_Too-removebg-preview.png" type="img/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        .center-container {
+            display: flex;
+            height: 90vh;
+
+        }
+
+        .center-container .main-img {
+            height: 65%;
+            width: 26%;
+            justify-content: left;
+            align-items: left;
+            padding-top: 8%;
+            margin-left: 1%;
+            transition: transform 700ms;
+            transition-timing-function:
+                cubic-bezier(.75, -3, .25, 4);
+            filter: drop-shadow(1px 1px 2px);
+        }
+
+       
+        .t-container {
+
+            display: flex;
+            padding: 4%;
+        }
+
+        main.row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 50px;
+        }
+
+        .col .contents .box {
+            position: relative;
+            padding: 2px;
+            margin-bottom: 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <h1>C. delights</h1>
+            <div class="div nav-links " id="navLinks">
+            <i class="fa fa-times left-2" id="fas" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="user_page.php">HOME</a></li>
+                    <li><a href="about_page.php">ABOUT</a></li>
+                    <li><a href="course_page.php">STRAND</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+<br>
+    <div class="center-con">
+        <img src="img/donut-removebg-preview.png" class="main-img">
+    </div>
+   
+    <div class="center-container" id="home">
+        <h1>
+                In every <span>mini-donuts</span> there's a pocketful of <span>joy</span><br><br>
+                <button onclick="location.href='document/RESUME_MARVIN.pdf';" class="button-3">order now!</button>
+        </h1>
+        
+    </div>
+    
+
+    <container>
+        <div class="heading">
+            <h1> featured Project</h1>
+            <p> _selected project</p><br><br>
+        </div>
+
+        <section class="project" id="project">
+
+            <img src="img/Screenshot (769).png">
+            <div class="content">
+                <h2>Enrollment System
+                </h2>
+                <p>
+                    I developed a web-based online enrollment system for San Isidro National High School, addressing the
+                    crucial need for a streamlined and efficient enrollment process.</p>
+                <ul>
+                    <li>Php</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Js</li>
+                    <li>Xampp</li>
+                </ul><br><br>
+                <button class="button-3">Take a look</button>
+            </div>
+
+        </section>
+        <section class="b-project">
+            <img src="img/Screenshot (768).png">
+            <div class="content">
+                <h2>Enrollment System<span></span></h2>
+                <p> replacing traditional paperwork with a digital platform. Students, parents, and
+                    administrators can now benefit from a user-friendly interface that simplifies enrollment procedures
+                </p>
+                <ul>
+                    <li>java</li>
+                    <li>xampp</li>
+                    <li>mysql</li>
+
+                </ul><br><br>
+                <button class="button-3">Take a look</button>
+            </div>
+
+        </section>
+
+    </container>
+
+    <div class="test">
+        <h1 class="head">my skills</h1>
+        <p class="header"><span>_What i know</span></p>
+    </div>
+    <div class="my-container" id="skills">
+        <div>
+
+
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/html.png">
+                <h2>html</h2>
+                <p> the basic scripting language used by web browsers to render pages on the world wide web.</p>
+            </div>
+
+            <div class="box">
+                <img src="img/css-3 (1).png">
+                <h2>css</h2>
+                <p>CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web
+                    pages</p>
+            </div>
+
+
+
+            <div class="box">
+                <img src="img/bootstrap.png">
+                <h2>bootstrab</h2>
+                <p>Bootstrap is a free, open source front-end development framework for the creation of websites and web
+                    apps.</p>
+            </div>
+
+
+
+            <div class="box">
+                <img src="img/tailwind-css-icon-removebg-preview.png">
+                <h2>tailwind</h2>
+                <p>Tailwind CSS is basically a Utility first CSS framework for building rapid custom UI. It is a highly
+                    customizable, low-level CSS framework </p>
+            </div>
+
+
+
+            <div class="box">
+                <img src="img/java-script.png">
+                <h2>javascript</h2>
+                <p>JavaScript is a programming language that adds interactivity to your website.</p>
+            </div>
+
+
+            <div class="box">
+                <img src="img/java.png">
+                <h2>java</h2>
+                <p>Java is a widely-used programming language for coding web applications. It has been a popular choice
+                    among developers for over two decades</p>
+            </div>
+
+            <div class="box">
+                <img src="img/c-sharp.png">
+                <h2>csharp</h2>
+                <p>is a modern, object-oriented, and type-safe programming language.</p>
+            </div>
+
+            <div class="box">
+                <img src="img/structure.png">
+                <h2>react</h2>
+                <p>an open-source JavaScript framework and library developed by Facebook. </p>
+            </div>
+
+            <div class="box">
+                <img src="img/php (1).png">
+                <h2>php</h2>
+                <p>PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic
+                    content, databases, session tracking, even build entire e-commerce sites.</p>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="test">
+        <h1 class="head">education</h1>
+        <p class="header"><span>_achievement</span></p>
+    </div>
+    <div class="t-container" id="education">
+        <main class="row">
+            <section class="col">
+                <headerc class="title">
+
+                    </header>
+                    <div class="contents">
+                        <div class="box">
+                            <h4>senior high school</h4>
+                            <h3 class="">_asian of institute of computer studies - montalban (2021-2023)</h3>
+                            <p class="paragraph">Lorem ipsum dolor sit, amet consec sit, amet
+                                consec sit, amet consec sit, amet consec sit,
+                                amet consec sit, amet consec</p>
+                        </div>
+
+                        <div class="box">
+                            <h4>high school</h4>
+                            <h3>_san-isidro national highschool (2016-2021)</h3>
+                            <p class="paragraph">Lorem ipsum dolor sit, amet consec sit, amet
+                                consec sit, amet consec sit, amet consec sit,
+                                amet consec sit, amet consec</p>
+                        </div>
+
+                        <div class="box">
+                            <h4>elementary</h4>
+                            <h3>_san-isidro elementary school (2013-2016)</h3>
+                            <p class="paragraph">Lorem ipsum dolor sit, amet consec sit, amet
+                                consec sit, amet consec sit, amet consec sit,
+                                amet consec sit, amet consec</p>
+                        </div>
+
+                    </div>
+            </section>
+
+            <section class="col">
+                <div class="contents">
+
+                    <div class="box">
+
+                        <h4>achievement</h4>
+                        <h3>_asian of institute of computer studies - montalban (2021-2023)</h3>
+
+                        <p class="merit"> <i class="fa-solid fa-medal text-yellow-500"></i><strong>Merit award:</strong>
+                            best in programming award.<br><span>
+                                - student who have a great potential and talent in a specific area or field.
+                            </span></p>
+
+                        <p class="merit"> <i class="fa-solid fa-medal text-gray-500"></i><strong>deped award:</strong>
+                            with high honor<br><span>
+                                - received an academic excellence award based on their average grade: (95%-97%)
+                            </span></p>
+
+                        <p class="merit"> <i class="fa-solid fa-medal text-orange-900"></i><strong>aics award:</strong>
+                            with honor<br><span>
+                                - received an academic excellence award based on their average grade in grade 11 to 12:
+                                (90%-94%)
+                            </span></p>
+                        <h4>exposure</h4>
+                        <p class="merit"> <i class="fa-solid fa-medal text-yellow-500"></i>
+                            <span>
+                                - was akready making websites, when i was 16 years old.
+
+                            </span>
+                        </p>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+    </div>
+    </section>
+    </main>
+
+    </div>
+    <div class="test-container">
+        <h1>This Website is not fully done,it is still in progcess. thankyou!!</h1>
+
+    </div>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+
+
+
+
+        ScrollReve({
+            reset: true,
+            distance: '60px',
+            duration: 1600,
+            delay: 400
+        }); -
+            ScrollReveal().reveal('.merit, contents, box, h3, p, test, h1', { delay: 200, origin: 'left' });
+        ScrollReveal().reveal('.ul, .a', { delay: 200, origin: 'left' });
+        ScrollReveal().reveal('.container, .img', { delay: 200, origin: 'top' });
+        ScrollReveal().reveal('.contents, box, h4', { delay: 200, origin: 'top' });
+        ScrollReveal().reveal('.box-container, box, .img, .project, .b-project', { delay: 200, origin: 'bottom' });
+
+
+
+    </script>
+</body>
+
+
+</html>
