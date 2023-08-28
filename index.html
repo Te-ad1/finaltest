@@ -61,10 +61,10 @@
             <div class="div nav-links " id="navLinks">
             <i class="fa fa-times left-2" id="fas" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="user_page.php">HOME</a></li>
-                    <li><a href="about_page.php">ABOUT</a></li>
-                    <li><a href="course_page.php">PRODUCT</a></li>
-                    <li><a href="contact.php">MENU</a></li>
+                    <a href="#home">HOME</a>
+                    <a href="#product">PRODUCT</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="contact.php">MENU</a>
                     
                 </ul>
             </div>
@@ -87,11 +87,11 @@
     </div>
         
 
-    <div class="test">
+    <div class="test" id="product">
         <h1 class="head">FEATURED</h1>
         <p class="header"><span>MINI DONUTS</span></p>
     </div>
-    <div class="my-container" id="skills">
+    <div class="my-container">
         <div>
 
 
@@ -100,7 +100,7 @@
         <div class="box-container">
 
             <div class="box">
-                <i class="fa-regular fa-star fa-beat-fade fa-xl text-pink-500"></i><img src="img/delicious-donuts-ai-generated-removebg-preview.png">
+                <i class="fa-regular fa-star fa-beat-fade fa-xl text-pink-500"></i><img src="img/donut2.png">
                 <h2><span>O</span>ne dozen Classic mini doughnuts</h2>
                 <p>Php 95.00 | 12pcs</p><br>
                 
@@ -138,11 +138,12 @@
                 <button onclick="location.href='document/RESUME_MARVIN.pdf';" class="button-4">order now  <i class="fa-solid fa-cart-plus fa-lg"></i></button>
             </div>
 
-
-
-
-
         </div>
+    </div>
+    <div class="about" id="">
+        <h4 id="about">We provide Mini Food</h4>
+        <p> sit a perspiciatis labore, c<br> Corrupti quos reprehenderit veniam libero deleniti suscipit nobis nam quidem eos tempora? Atque, iusto nesciunt!</p>
+        <img src="img/download__2_-removebg-preview (1).png">
     </div>
    
 
@@ -171,7 +172,7 @@
             duration: 1600,
             delay: 400
         }); 
-        ScrollReveal().reveal('.merit, contents, box, h3, test, h1, nav-links, nav, .fa', { delay: 200, origin: 'left' });
+        ScrollReveal().reveal('.merit, contents, box, h3, test, h1', { delay: 200, origin: 'left' });
         ScrollReveal().reveal('.ul, .a', { delay: 200, origin: 'left' });
         ScrollReveal().reveal('.center-con, .main-img', { delay: 200, origin: 'top' });
      
